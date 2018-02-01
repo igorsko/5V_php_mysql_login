@@ -1,0 +1,1 @@
+Example SQL injection on login:  ' or '1'='1
