@@ -1,1 +1,1 @@
-<?php echo "Ti sei loggato con successo";?>
+<?php echo "Si se pravino prijavil v sistem.";?>

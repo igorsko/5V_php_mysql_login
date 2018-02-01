@@ -1,12 +1,9 @@
-<?php    
-$connessione_al_server=mysql_connect("localhost","root","root");  // ip locale, login e password
-if(!$connessione_al_server){
-	die ('Non riesco a connettermi: errore '.mysql_error()); // questo apparirà solo se ci sarà un errore
+<?php   
+//phpinfo(); 
+$con_server =  mysqli_connect("mysql","root","root","test");  
+if(!$con_server){
+	die ('Napaka pri povezavi'); 
 }
 
-$db_selected=mysql_select_db("prova",$connessione_al_server); // dove io ho scritto "prova" andrà inserito il nome del db
-if(!$db_selected){
-	die ('Errore nella selezione del database: errore '.mysql_error()); // se la connessione non andrà a buon fine apparirà questo messaggio
-}
 
 ?>
