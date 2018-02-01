@@ -1,1 +1,3 @@
-Example SQL injection on login:  ' or '1'='1
+1)  ' OR '1'='1
+
+2) SELECT * FROM users WHERE username = 'pippo'; DROP TABLE users #'
